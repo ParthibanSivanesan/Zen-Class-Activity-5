@@ -1,0 +1,61 @@
+let json = [
+  {"name": "Parthiban Sivanesan"},
+  {"location": "Chennai, Tamilnadu"},
+  {"email": "parthiban.sivanesan97@gmail.com"},
+  {"Education Details ": [
+    {
+      "Qualification": "BE",
+      "Department": "Mechanical Engineering",
+      "Percentage": "82.4%",
+      "Institution": "Saranathan College of Engineering",
+      "Year of Completion": "2018"
+    },
+    {
+      "Qualification": "HSC",
+      "Department": "Computer Science",
+      "Percentage": "92.91%",
+      "Institution": "RC Higher Secondary School",
+      "Year of Completion": "2014"
+    },
+    {
+      "Qualification": "SSLC",
+      "Percentage": "87.8%",
+      "Institution": "RC Higher Secondary School",
+      "Year of Completion": "2012"
+    }
+  ]}
+]
+
+//(a)For Loop:
+for (var i=0; i<json.length; i++){
+  console.log(json[i]);
+}
+
+//(b)For Of Loop:
+for(var key of json){
+  console.log(key);
+}
+
+//(c)For In Loop:
+
+for(var j in json){
+  console.log(j);
+}
+
+//(d)For Each Loop:
+const markdetails = [
+  { Tamil : 87},
+  { English : 80},
+  { Maths : 90},
+  { Science : 85},
+  { Socialscience : 90}
+]
+
+console.log("Mark details are");
+markdetails.forEach(myfunction);
+
+  function myfunction(item, index, markdetails){
+  let result = JSON.stringify(markdetails[index]);
+  console.log(result);
+  return;
+  }

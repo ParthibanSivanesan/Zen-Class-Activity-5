@@ -1,0 +1,74 @@
+{
+  "name": "Parthiban Sivanesan",
+  "location": "Chennai, Tamilnadu",
+  "email": "parthiban.sivanesan97@gmail.com",
+  "Experience Details": [
+    {
+      "Company": "NGV",
+      "Designation": "Digital Marketing Intern",
+      "Duration": "3 Months"
+    },
+    {
+      "Company": "Byjus",
+      "Designation": "Business Developement Associate",
+      "Duration": "8 Months"
+    },
+    {
+      "Company": "Infosys BPM Limited",
+      "Designation": "Process Executive",
+      "Duration": "1 Year 4 Months"
+    }
+  ],
+  "Education Details ": [
+    {
+      "Qualification": "BE",
+      "Department": "Mechanical Engineering",
+      "Percentage": "82.4%",
+      "Institution": "Saranathan College of Engineering",
+      "Year of Completion": "2018"
+    },
+    {
+      "Qualification": "HSC",
+      "Department": "Computer Science",
+      "Percentage": "92.91%",
+      "Institution": "RC Higher Secondary School",
+      "Year of Completion": "2014"
+    },
+    {
+      "Qualification": "SSLC",
+      "Percentage": "87.8%",
+      "Institution": "RC Higher Secondary School",
+      "Year of Completion": "2012"
+    }
+  ],
+  "Certifications": [
+    {
+      "Course": "The Fundamentals of Digital Marketing",
+      "Obtained From": "Google Digital Garage"
+    },
+    {
+      "Course": "Become Digital Marketing Specialist",
+      "Obtained From": "Linkedin Learning"
+    },
+    {
+      "Course": "Learning SQL programming",
+      "Obtained From": "Linkedin Learning"
+    },
+    {
+      "Course": "Google Ads Display & Search Certification",
+      "Obtained From": "Google Digital Garage"
+    }
+  ],
+  "Technical Skills": {
+    "Skills": [
+      "Frontend Programming",
+      "Digital Marketing",
+      "Email Marketing",
+      "SEO",
+      "SMM",
+      "Campaign Management"
+    ],
+    "Programming Languages": ["Javascript", "HTML", "SQL", "Bascis in C, C++"]
+  },
+  "Declaration": "I hereby declare that above mentioned information is correct and best to my knowledge."
+}
