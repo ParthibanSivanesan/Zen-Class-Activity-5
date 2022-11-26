@@ -27,3 +27,22 @@ if(resultpalindrome== 1){                                     //checking result 
 }else{
   console.log("Not Palindrome");
 }
+
+
+// Adding Palindrome Programm For Numbers:
+
+let num = +userInput[0];
+let n = num;
+let temp, result =0;
+
+while(n != 0){
+    temp = n%10;
+    result= result* 10 + temp;
+    n = Math.floor(n/10);
+}
+
+if(num === result){
+    console.log(true);
+}else{
+    console.log(false);
+}
